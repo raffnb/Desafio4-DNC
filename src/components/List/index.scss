@@ -1,0 +1,60 @@
+@use '/src/Sass/variables.scss' as *;
+@use '/src/Sass/mixins.scss' as *;
+
+
+table{
+
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+
+
+.list-tbody{
+font-size: 25px;
+color: $color-base;
+display: flex;
+margin: 25px 0 10px 20rem;
+justify-content: space-between;
+width: 70rem;
+
+tr{
+    width: 50rem;
+}
+
+
+
+
+
+}
+
+.btn-img{
+    background-color: $main-background;
+    .icon-Img{
+        width: 35px;
+        height: 30px;
+        
+        
+        }
+
+}
+
+.checkBox{
+display: flex;
+justify-content: center;
+width: 300px;
+text-align: center;
+
+    input{    
+        
+        width: 18px;
+        height: 18px;
+    }
+
+
+    
+}

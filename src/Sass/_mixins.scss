@@ -1,0 +1,42 @@
+
+
+
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin main-button(){
+    
+border-radius: 10px;
+width: 260px;
+height: 70px;
+font-weight: 600;
+font-size: 30px;
+background-color: #0C70F2;
+border: 0;
+margin-left: 10px;
+margin-top: 20px;
+cursor: pointer;
+
+button:hover{
+    background-color: white;
+    color: black !important;
+        
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    cursor: pointer;
+    }
+}
+
+a:hover{
+    color: black !important;
+    background-color: white;
+}
+
+
