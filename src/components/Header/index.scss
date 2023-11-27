@@ -1,0 +1,42 @@
+@use '/src/Sass/variables.scss' as *;
+@use '/src/Sass/mixins.scss' as *;
+
+.main-header{
+    background-color: $main-color--header;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    
+    ul{
+      display: flex;
+      align-items: flex-end;
+
+            .li-W{
+            color: white;
+            list-style-type: none;
+            text-align:center;
+            margin-left: 40px;
+            font-size: 25px;
+            font-weight: 600;
+            padding: 9px;
+
+            }
+            
+            .li-B{
+            color:$main-color--header;
+            list-style-type: none;
+            text-align:center;
+            margin-left: 40px;
+            font-size: 25px;
+            font-weight: 600;
+            background-color: white;
+            padding: 9px 40px;
+            border-radius: 10px 10px 0px 0px;
+            }
+
+
+        
+    }
+
+
+}

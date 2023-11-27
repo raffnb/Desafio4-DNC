@@ -1,0 +1,84 @@
+@use '/src/Sass/variables.scss' as *;
+@use '/src/Sass/mixins.scss' as *;
+
+
+.home-principal{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    
+}
+
+thead{
+    display: flex;
+    justify-content: center;
+    
+    
+    
+        .title-tarefas{
+            font-size: 30px;
+            color: $color-base;
+            margin-bottom: 40px;
+            width: 43.75rem;
+            
+            display: flex;
+            justify-content: space-between;
+            }
+
+            
+    
+    
+    }
+
+.main-section{
+    background-color: $main-background;
+    width: 100%;
+    height: 100%;
+
+    h1{
+        font-size: 40px;
+        text-align: center;
+        padding: 7rem 0;
+        color: $color-base;
+
+    }
+
+}
+
+hr{
+    display: inline-block;
+    width: 43.75em;
+}
+
+
+.newList{
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 400;
+    color: $color-base  ;
+    
+    
+    display: flex;
+    text-align: center;
+    padding-bottom: 4rem;
+    justify-content: center;
+
+    li{
+        list-style: none;
+        color: $color-base;
+    }
+
+    
+    li:nth-child(2){
+       font-size: 40px;
+       margin-left: 40rem;
+    }
+
+        }
+
+
+
+
+
+
