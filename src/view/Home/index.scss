@@ -5,8 +5,9 @@
 .home-principal{
     text-align: center;
     align-items: center;
-    width: 100%;
+    width: 120%;
     height: 100%;
+    box-sizing: border-box;
     
 }
 
@@ -75,6 +76,20 @@ hr{
        margin-left: 40rem;
     }
 
+        }
+
+
+        .search{
+            border-bottom: 1px solid #555;
+            margin-bottom: 20px;
+            padding-bottom: 20px;
+            color: #fff;
+
+            input{
+                height: 50px;;
+                width: 350px;
+                margin: 5px;
+            }
         }
 
 
