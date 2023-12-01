@@ -2,8 +2,8 @@
 
 Ferramentas para o Desenvolvimento
 
-| HTML | CSS | REACT | SASS |
-| --- | --- | --- | --- |
+| HTML | CSS | REACT | SASS | VITE | JAVASCRIPT |
+| --- | --- | --- | --- | --- | --- |
 
 ## 1 - Criação da Branch
 
