@@ -26,4 +26,4 @@ dist-ssr
 # Arquivos para não aparecer no Repositório
 
 node_modules
-tasks.mock.js
+tasks.mock
