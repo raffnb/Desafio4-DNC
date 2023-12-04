@@ -22,3 +22,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Arquivos para não aparecer no Repositório
+
+node_modules
+tasks.mock.js
