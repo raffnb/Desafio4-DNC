@@ -1,26 +1,48 @@
-# Desafio 4 DNC
+# Desafio 4  Escola DNC
+
+Crie um repositório e garanta acesso fácil a seu projeto
 
 Ferramentas para o Desenvolvimento
 
 | HTML | CSS | REACT | SASS | VITE | JAVASCRIPT |
 | --- | --- | --- | --- | --- | --- |
 
-## 1 - Criação da Branch
+Antes de prosseguir com o projeto, é imprescindível realizar a instalação das dependências do React/Vite:
 
-Para iniciar o plano de Melhoria da Pagina , foi criado uma Branch (desafio4), para aplicar testes e alterações pontuais. 
+```jsx
+npm install
+npm run dev
+```
 
-## 2 - Oportunidade de Melhoria
+# **1 - Criação da Branch**
 
-Foi evidenciado que poderia ser inserido um campo de pesquisar para melhorar a busca da todo list.
+Para iniciar o plano de aprimoramento da página, foi criada a branch "desafio4" para a implementação de testes e ajustes específicos.
 
-Inicialmente a lista de tarefa se encontra com poucos itens, porem com vários itens em uma lista poderia ser um problema para buscar um determinado item da lista. Com esta melhoria , apenas com poucas palavras será necessário encontrar o item desejado. 
+# **2 - Oportunidade de Aprimoramento**
 
-## 3 - Oportunidade de Melhoria
+Identificou-se a possibilidade de incluir um campo de pesquisa para otimizar a busca na lista de tarefas.
 
-Foi evidenciado que poderia ser inserido um campo de pesquisar para melhorar a busca da todo list.
+Embora a lista atual tenha poucos itens, é previsto que, com a expansão, localizar um item específico na lista poderia tornar-se desafiador. Com essa melhoria, a busca de um item desejado será facilitada, bastando inserir algumas palavras-chave.
 
-Inicialmente a lista de tarefa se encontra com poucos itens, porem com vários itens em uma lista poderia ser um problema para buscar um determinado item da lista. Com esta melhoria , apenas com poucas palavras será necessário encontrar o item desejado. 
+# **3 - Criação de componente Search.jsx**
 
-## 4 - Transferir a informações para a Branch (main)
+Após a análise da oportunidade de aprimoramento, foi implementado um novo componente (Search.jsx) para proporcionar maior flexibilidade ao usuário na busca de informações. Agora, é possível realizar pesquisas de forma mais simples, utilizando palavras-chave.
 
-Após o desenvolvimento da melhoria da pagina, chega o momento de inserir as informações para a branch principal com as devidas informações e o Deploy.
+```jsx
+<div className='search' > 
+      <h2>Pesquisar</h2>
+      <input type="text"
+      value={search} 
+      onChange={(e)=> setSearch(e.target.value)}
+      placeholder='Digite para Pesquisar'/>
+
+    </div>
+```
+
+# **4 - Arquivo Gitignore**
+
+Um processo essencial para o desafio é ocultar, por meio do arquivo .gitignore, alguns arquivos desnecessários para determinados usuários, proporcionando uma entrega apenas do necessário para interação com o projeto. Seguem abaixo os arquivos específicos a serem ignorados:
+
+# 5 **- Transferência de Informações para a Branch (desafio4)**
+
+Após concluir o desenvolvimento das melhorias na página, chegou o momento de integrar as alterações na branch 'desafio4'. De acordo com o objetivo do desafio, que consiste em trabalhar exclusivamente com a branch secundária e manter a principal ('main') intacta, não foi necessário aplicar o comando merge entre as branches.
