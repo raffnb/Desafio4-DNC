@@ -4,6 +4,7 @@ import './index.scss'
 import Header from '../../components/Header/Header'
 import { List } from '../../components/List/List'
 import { useState } from 'react'
+import Search from '../../components/Search/Search'
 
 
 
@@ -21,14 +22,7 @@ const Home = ({data}) => {
       <section className='main-section'>
         <h1 >Otimize seu tempo e se organize com o nosso Planejador Diário.</h1>
 
-        <div className='search' > 
-      <h2>Pesquisar</h2>
-      <input type="text"
-      value={search} 
-      onChange={(e)=> setSearch(e.target.value)}
-      placeholder='Digite para Pesquisar'/>
-
-    </div>
+       <Search/>
 
 
 
