@@ -41,7 +41,7 @@ Após a análise da oportunidade de aprimoramento, foi implementado um novo comp
 
 # **4 - Arquivo Gitignore**
 
-Um processo essencial para o desafio é ocultar, por meio do arquivo .gitignore, alguns arquivos desnecessários para determinados usuários, proporcionando uma entrega apenas do necessário para interação com o projeto. Seguem abaixo os arquivos específicos a serem ignorados:
+Um processo essencial para o desafio é ocultar, por meio do arquivo .gitignore, alguns arquivos desnecessários para determinados usuários, proporcionando uma entrega apenas do necessário para interação com o projeto. Seguem abaixo os arquivos específicos a serem ignorados: guiaTodoList.txt
 
 # 5 **- Transferência de Informações para a Branch (desafio4)**
 
